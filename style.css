@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+html{
+    font-size: 62.5%;
+}
+h1{
+    font-weight: bold;
+}
+.bg_color{
+    background-color: #bfd5d9;
+}
+.titulo{
+    font-size: 9rem;
+}
+.fs-tit{
+    font-size: 3rem;
+    font-family: 'Lato', sans-serif;
+}
+.fs-texto{
+    font-family: 'Lato', sans-serif;
+}
+.font-tit{
+    font-size: 3rem;
+}
+.iconos{
+    width: 40px;
+    height: 40px;
+    margin: 0 20px;
+}
+.foto__tomi{
+    border-radius: 100%;
+    width: 80vw;
+}
+.conteiner__tomi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card__trabajo{
+    width: 50vw;
+}
+.btn-sitio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie__icon--sm{
+    width: 80px;
+}
+@media (min-width:600px) {
+    /* Contactanos */
+    .foto__tomi{
+        width: 600px;
+    }
+}
